@@ -11,21 +11,17 @@
     <main>
       <NuxtPage /> <!-- this is where the page content renders -->
     </main>
-    <!-- <footer>
-      <p>Dominiqu Nigatu</p>
-      <p>Contact at: <a href="dom.nigatu@imy.com">dom.nigatu@imy.com</a></p>
-      <p>&copy; 2025 My Blog. All rights reserved.</p>
-    </footer> -->
+
   </div>
 </template>
 
 <style scoped>
 header {
-  background-color: #333;
+  background-color: #B6B7E6;
   color: white;
   padding: 1rem;
   text-align: center;
-  border-bottom: 2px solid #444;
+  /* border-bottom: 2px solid #444; */
 }
 header h1 {
   margin: 0;
