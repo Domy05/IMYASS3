@@ -9,7 +9,7 @@
     </header>
 
     <main>
-      <NuxtPage /> <!-- this is where the page content renders -->
+      <NuxtPage /> <!-- EVERTHING RENDERS HERE BOSS -->
     </main>
 
   </div>

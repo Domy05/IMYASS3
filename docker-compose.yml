@@ -1,0 +1,19 @@
+version: "3"
+
+services:
+  frontend:
+    build:
+      context: ./blogProj
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+
+  backend:
+    build:
+      context: ./backendStrapi
+    ports:
+      - "1337:1337"
+    environment:
+      DATABASE_CLIENT: sqlite
+      NODE_ENV: development
